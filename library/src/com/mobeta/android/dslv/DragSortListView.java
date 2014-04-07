@@ -625,6 +625,10 @@ public class DragSortListView extends ListView {
         super.setAdapter(mAdapterWrapper);
     }
 
+    public DragSortController getDragSortController(){
+        return (DragSortController) mFloatViewManager;
+    }
+
     /**
      * As opposed to {@link ListView#getAdapter()}, which returns
      * a heavily wrapped ListAdapter (DragSortListView wraps the
