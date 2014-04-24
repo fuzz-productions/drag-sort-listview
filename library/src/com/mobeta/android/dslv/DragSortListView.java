@@ -183,11 +183,11 @@ public class DragSortListView extends ListView {
     /**
      * Drag state enum.
      */
-    private final static int IDLE = 0;
-    private final static int REMOVING = 1;
-    private final static int DROPPING = 2;
-    private final static int STOPPED = 3;
-    private final static int DRAGGING = 4;
+    public final static int IDLE = 0;
+    public final static int REMOVING = 1;
+    public final static int DROPPING = 2;
+    public final static int STOPPED = 3;
+    public final static int DRAGGING = 4;
 
     private int mDragState = IDLE;
 
@@ -2996,6 +2996,10 @@ public class DragSortListView extends ListView {
             }
         }
 
+    }
+
+    public int getDragState(){
+        return mDragState;
     }
 
 }
