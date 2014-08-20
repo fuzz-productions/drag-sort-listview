@@ -109,7 +109,7 @@ of 1 means items snap from position to position without animation.
   a drag.
     + "onDown": Drag starts when finger touches down
       on the drag handle.
-    + "onDrag": Drag starts when finger touches down on drag handle
+    + "onMove": Drag starts when finger touches down on drag handle
       and then drags (allows item clicks and long clicks).
     + "onLongPress": Drag starts on drag handle long press (allows
       item clicks).
